@@ -7,6 +7,11 @@ LINE Messaging API を使い、ターミナルで入力したメッセージを�
 - ターミナルで複数行のメッセージを入力し、確認してから自分の LINE に送る
 - `.env` の設定ミス・トークンの間違い・送れる数の上限・通信の失敗などを、日本語で知らせる
 
+## 使う技術
+
+- Python 3（requests・python-dotenv）
+- LINE Messaging API（プッシュメッセージ）
+
 ## 事前準備
 
 1. Python 3 と、ライブラリ `requests`・`python-dotenv`（Anaconda なら最初から入っています）
